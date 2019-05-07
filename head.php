@@ -10,7 +10,6 @@ $usuario_id = $_SESSION['id'];
   </script>';
   die();
 }
-
 echo "string";
        
   ?>
