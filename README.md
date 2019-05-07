@@ -2,9 +2,11 @@ El Proyecto Nascar fue diseñado y construido desde cero por el programador Luis
 
 
 # Screenshots
-![](img/perfil/perfil_avatar.jpg)
+![](docs/screenshot.png)
+![](docs/screenshot1.png)
 ![](docs/screenshot2.png)
-
-# Improvements for the Future
-- Input Validation (to avoid XSS)
-- User Authentication
+![](docs/screenshot3.png)
+![](docs/screenshot4.png)
+![](docs/screenshot5.png)
+![](docs/screenshot6.png)
+![](docs/screenshot7.png)
