@@ -14,4 +14,4 @@ include('head.php');
 </div>
 
 
-<?php include('footer.php'); echo "string";?>
+<?php include('footer.php');?>
