@@ -1,0 +1,25 @@
+
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+.prefix{
+	margin-left: -180px !important;
+	
+}
+
+.etiqueta_contacto{
+	width: 120%; margin-left: -10%; height: 60px; margin-top: -10%; -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.65);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.65);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.65) !important;
+}

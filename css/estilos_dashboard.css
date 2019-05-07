@@ -1,0 +1,122 @@
+.botones{
+	bottom: 0;
+	width: 90px;
+	height: 40px;
+	padding: 10px;
+	border-radius: 6px;
+}
+	
+
+.box_botones{
+	position: absolute;
+	display: inline-flex;
+	bottom: 0;
+	left: 30px;
+	right: 30px;
+	
+}
+
+
+@media (max-width: 740px) {
+.tarjeta {
+	
+	margin-left: 14%;
+}
+}
+
+@media (max-width: 740px){
+	.boton_crear_nota{
+		margin-left: -40px
+	}
+}
+
+@media (max-width: 740px){
+	#segun{
+		margin-right: -100px !important;
+	}
+}
+
+
+#opciones{
+	background-color: #737674 !important;
+	margin-bottom: 10px;
+	}
+
+.formulario_perfil:nth-child(1){
+	display: block;
+}
+
+.formulario_seguridad{
+	display: none;
+}
+#franja_perfil{
+	
+}
+
+#boton_perfil i{
+	position: absolute;
+	
+	font-size: 40px;
+	top: 16%;
+	left: 36%;
+	padding: 0%;
+
+}
+
+#boton_perfil{
+	position: absolute;
+	color: rgb(255, 255, 254, 0.1);
+	top: -3%;
+	left: 28.0%;
+	height: 70px;
+	width: 44%;
+	border-bottom-right-radius: 70px; 	
+	border-bottom-left-radius: 70px; 	
+	background-color: rgb(0,0,0,0.1) !important;
+}
+#boton_perfil:hover{
+	background-color: rgb(0,0,0,0.5) !important;
+	color: rgb(255, 255, 254);
+}
+
+#boton_cambiar_imagen{
+	padding: 5px;
+	margin-left: 90px;
+	display: none;
+}
+
+
+@media (max-width: 740px){
+
+#boton_perfil i{
+	position: absolute;
+	
+	font-size: 40px;
+	top: 16%;
+	left: 36%;
+	padding: 0%;
+
+}
+
+#boton_perfil{
+	position: absolute;
+	color: rgb(255, 255, 254, 0.1);
+	top: -3%;
+	left: 35%;
+	height: 70px;
+	width: 30%;
+	border-bottom-right-radius: 70px; 	
+	border-bottom-left-radius: 70px; 	
+	background-color: rgb(0,0,0,0.1) !important;
+}
+#boton_perfil:hover{
+	background-color: rgb(0,0,0,0.5) !important;
+	color: rgb(255, 255, 254);
+}	
+
+#boton_cambiar_imagen{
+	margin-left: 150px;
+}
+
+
+}

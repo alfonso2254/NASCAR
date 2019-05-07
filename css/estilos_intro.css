@@ -1,0 +1,85 @@
+/* Required for full background image */
+
+  html,
+  body,
+  header,
+  .view {
+    height: 100%;
+  }
+
+@media (max-width: 740px) {
+html,
+body,
+header,
+.view {
+height: 1100px;
+}
+}
+@media (min-width: 800px) and (max-width: 850px) {
+html,
+body,
+header,
+.view {
+height: 700px;
+}
+}
+
+.top-nav-collapse {
+background-color: #39448c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+background: transparent !important;
+}
+
+@media (max-width: 991px) {
+.navbar:not(.top-nav-collapse) {
+background: #39448c !important;
+}
+}
+
+h6 {
+line-height: 1.7;
+}
+
+
+
+
+h3{
+	font-size: 40px
+}
+
+.toggle{
+	position: absolute;
+	top: 7px;
+	right: 7px;
+	width: 23%;
+	height: 30px;
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	border-top: 3px solid #7E78FF ;
+	border-bottom: 3px solid #7E78FF ; 
+	font-weight: bold;
+	transition: 1s;
+}
+
+
+.toggle:hover{
+	border-top: 3px solid #33FFF9 ;
+	border-bottom: 3px solid #33FFF9 ; 
+	letter-spacing: 1px;
+	transition: 1s;
+}
+
+.form{
+	position: relative;
+}
+
+.formulario{
+	display: none;
+}
+
+.formulario:nth-child(2){
+	display: block;
+}
