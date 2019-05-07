@@ -92,8 +92,6 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `nombre`, `correo`, `usuario`, `password`, `img`) VALUES
-(19, 'Luis Alfonso Alarcon', 'alfonso22542254@gmail.com', 'alfonso2254', '20121997', '42660444_2083702991693666_7727161123492855808_n.jpg'),
-(20, 'Carlos', 'comglorerate1@gmail.com', 'comglorerate', 'Mnn8Jtt1', '42660444_2083702991693666_7727161123492855808_n.jpg'),
 (21, 'Luis Alberto', 'admin@admin.com', 'admin', 'admin', 'perfil_avatar.jpg');
 
 --
