@@ -9,9 +9,7 @@ $usuario_id = $_SESSION['id'];
     window.location.assign("index.php");
   </script>';
   die();
-}
-echo "string";
-       
+}  
   ?>
 
 <!DOCTYPE html>
