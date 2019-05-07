@@ -1,17 +1,4 @@
 <?php 
-
-session_start();
-$varsession = $_SESSION['usuario'];
-$nombre= $_SESSION['nombre'];
-$usuario_id = $_SESSION['id'];
-
-if ($varsession == null || $varsession=='') {
-	echo '<script>
-		alert("Usted no tiene autorización");
-		window.location.assign("index.php");
-	</script>';
-	die();
-}
 include('head.php'); 
 ?>
 
@@ -26,4 +13,5 @@ include('head.php');
 	</form>
 </div>
 
-<?php include('footer.php');?>
+
+<?php include('footer.php'); echo "string";?>

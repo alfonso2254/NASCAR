@@ -1,9 +1,17 @@
 <?php include('controller/database.php');
+session_start();
+$varsession = $_SESSION['usuario'];
+$nombre= $_SESSION['nombre'];
+$usuario_id = $_SESSION['id'];
+ if ($varsession == null || $varsession=='') {
+  echo '<script>
+    alert("Usted no tiene autorización");
+    window.location.assign("index.php");
+  </script>';
+  die();
+}
 
- 
-        $consulta = "SELECT * FROM users WHERE id='$usuario_id'";
-        $resultado = $bd->query($consulta);
-        $row = $resultado->fetch_assoc();
+       
   ?>
 
 <!DOCTYPE html>
@@ -29,6 +37,14 @@
 </head>
 
 <body>
+
+  <?php 
+
+   $consulta = "SELECT * FROM users WHERE id='$usuario_id'";
+        $resultado = $bd->query($consulta);
+        $row = $resultado->fetch_assoc();
+
+   ?>
 
   <!--Navbar -->
 <nav class="mb-1 navbar navbar-expand-lg navbar-dark secondary-color lighten-1 btn-dark">
