@@ -11,6 +11,7 @@ $usuario_id = $_SESSION['id'];
   die();
 }
 
+echo "string";
        
   ?>
 
